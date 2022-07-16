@@ -2,7 +2,7 @@ import { Controller, Get, Post, Put, Delete, Res, HttpStatus, Body, Param, NotFo
 import { CreateProductDTO } from './dto/product.dto';
 import { ProductService } from './product.service';
 
-@Controller('product')
+@Controller('api/product')
 export class ProductController {
 
     constructor(private productService: ProductService){}
