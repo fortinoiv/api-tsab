@@ -1,4 +1,4 @@
-FROM node:16.16.0 as development
+FROM node:18.0.0 as development
 
 ADD . /root/api-tsab
 WORKDIR /root/api-tsab
